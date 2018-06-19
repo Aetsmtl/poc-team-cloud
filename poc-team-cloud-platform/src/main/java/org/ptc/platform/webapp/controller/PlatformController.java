@@ -46,4 +46,12 @@ public class PlatformController {
 		return "aboutUs";
 	}
 	
+	@RequestMapping("/aetu")
+	public String getAetUApp(Model model) {
+		
+		model.addAttribute("jumTitle", "Everything about US!");
+		
+		return "yep";
+	}
+	
 }

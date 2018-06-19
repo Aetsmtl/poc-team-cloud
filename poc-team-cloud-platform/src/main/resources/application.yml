@@ -15,7 +15,9 @@ server:
     access_log_enabled: true
   port: 8089
 
-
+endpoints:
+  enabled: true
+  sensitive: false
 
 ---
 spring:

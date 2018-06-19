@@ -1,0 +1,8 @@
+spring:
+  main:
+    banner-mode: "off"
+
+server:
+  tomcat:
+    access_log_enabled: true
+  port: 8090   

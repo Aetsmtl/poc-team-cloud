@@ -35,6 +35,7 @@
 		<module>poc-team-cloud-platform</module>
     	<module>poc-team-cloud-operational</module>
     <module>poc-team-cloud-project</module>
+    <module>poc-team-cloud-gui</module>
   </modules>
 
 </project>
