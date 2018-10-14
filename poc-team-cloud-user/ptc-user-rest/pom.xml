@@ -140,21 +140,21 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>${appengine-maven-plugin-version}</version>
 			</plugin>
-			<!-- <plugin> -->
-			<!-- <groupId>org.springframework.boot</groupId> -->
-			<!-- <artifactId>spring-boot-maven-plugin</artifactId> -->
-			<!-- <configuration> -->
-			<!-- <mainClass>org.ptc.platform.PtcWebApplication</mainClass> -->
-			<!-- <layout>ZIP</layout> -->
-			<!-- </configuration> -->
-			<!-- <executions> -->
-			<!-- <execution> -->
-			<!-- <goals> -->
-			<!-- <goal>repackage</goal> -->
-			<!-- </goals> -->
-			<!-- </execution> -->
-			<!-- </executions> -->
-			<!-- </plugin> -->
+	<plugin>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-maven-plugin</artifactId>
+		<configuration>
+			<mainClass>org.ptc.platform.PtcWebApplication</mainClass>
+			<layout>ZIP</layout>
+		</configuration>
+		<executions>
+			<execution>
+				<goals>
+					<goal>repackage</goal>
+				</goals>
+			</execution>
+		</executions>
+	</plugin>
 		</plugins>
 	</build>
 
