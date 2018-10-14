@@ -24,7 +24,6 @@ spring:
   profiles: test
 
 
-
 ---
   
 spring:
@@ -53,5 +52,4 @@ logging:
 ---
 spring:
   profiles: prod
-  
   
