@@ -28,5 +28,8 @@ public class MemberController {
 		return userRepositoy.findById(idUser);
 
 	}
+	{
+		
+	}	
 
 }

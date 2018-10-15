@@ -3,12 +3,13 @@ package org.ptc.platform.rest.finance.controller;
 import java.util.Arrays;
 import java.util.List;
 
-import javax.websocket.server.PathParam;
+//import javax.websocket.server.PathParam;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController()
@@ -24,7 +25,7 @@ public class FinanceController {
 	}
 
 	@GetMapping(path="ptc/api/v0/finance-operations/{finance-operationsId}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-	public String getFinanceOperationsById(@PathParam("finance-operationsId") Long financeOpeId) {
+	public String getFinanceOperationsById(@PathVariable("finance-operationsId") Long financeOpeId) {
 		
 		LOGGER.info("get specific FinanceOpe by id");
 		return "cotis-Amed-000-xnbd";
