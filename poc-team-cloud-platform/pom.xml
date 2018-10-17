@@ -91,7 +91,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>org.ptc.platform.PtcWebApplication</mainClass>
+					<mainClass>org.ptc.platform.PtcWebSiteLuncher</mainClass>
 					<!-- <layout>ZIP</layout> -->
 				</configuration>
 				<executions>
